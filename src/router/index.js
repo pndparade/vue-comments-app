@@ -3,6 +3,8 @@ import PostView from '@/views/PostView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  linkActiveClass: 'is-current',
+  linkExactActiveClass: 'is-current',
   routes: [
     {
       path: '/',
